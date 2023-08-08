@@ -1,0 +1,105 @@
+.green{
+    border: 2px solid green;
+}
+.navbar{
+    width: 1216px;
+}
+.logo_icon{
+    width:80px;
+}
+.cover_frame{
+    background-image:url(pic/home-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.buttonbuy_frame{
+    padding:6px 12px;
+    border:0px;
+}
+.W-100pc{
+    max-width: 100%;
+}
+.home-cover-display-md{
+    display:none;
+}
+.advantages_card{
+    width:306px;
+}
+.advantages_icon{
+    width: 84px;;
+}
+// .advantages_frame{
+//     width: 1216px;
+//     position:absolute;
+//     top:296px;
+// }
+.promote_frame{
+    width: 1216px;
+}
+.glass_pic{
+    width:416px;
+}
+.design_frame{
+    background-image: url(pic/index-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.design_pic{
+    width:648px;
+}
+.desige_picframe{
+    max-width:100%;
+}
+.customer_pic{
+    width:306px;
+}
+.customer_picframe{
+    max-width:100%;
+}
+
+.question_frame{
+    width:636px;
+}
+.inputbox{
+    width:100%;
+    padding:6px 0px 6px 12px;
+}
+.inputbox_106{
+    width:100%;
+    padding:6px 0px 106px 12px;
+}
+.button_frame{
+    padding:16px 0px;
+    width:416px;
+    border:0px;
+    align-self: center;
+}
+.footer_frame{
+    width:1296px;
+}
+.footer_icon{
+    width:48px;
+}
+.display_none{
+    display:none;
+}
+
+// @media(max-width:768px){
+//     .navbar{
+//         padding: 0 36px;
+//     }
+//     .home-cover-display{
+//         display:none
+//     }
+//     .home-cover-display-md{
+//         display:block;
+//     }
+// }
+
+// @media(max-width:576px){
+//     .borderwhite{
+//         border:1px solid white; 
+//         // max-width: 288px;
+//     }
+// }

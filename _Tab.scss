@@ -1,0 +1,74 @@
+@media(max-width:768px){
+    .navbar{
+        padding: 0 36px;
+    }
+    .promote_frame{
+        padding:0 36px;
+    }
+    .cover_frame{
+        background-image:url(pic/home-header-sm.png);
+    }
+    .advantages_frame{
+        padding:0px 24px;
+    }
+    .px_24_md{
+        padding-left: 24px;
+        padding-right:24px;
+    }
+    .px_36_md{
+        padding-left: 36px;
+        padding-right:36px;
+    }
+    .glass_pic{
+        width:336px;
+    }
+    .ml_16_md{
+        margin-left:16px;
+    }
+    .mb_48_md{
+        margin-bottom: 48px;
+    }
+    .mb_24_md{
+        margin-bottom: 24px;
+    }
+    .design_frame{
+        padding-left: 36px;
+        padding-right: 36px;
+        background-image: url(pic/index-bg-md.png);
+    }
+    .design_pic{
+        max-width:100%;
+    }
+    .question_frame{
+        max-width:100%;
+        padding-left: 96px;
+        padding-right: 96px;
+    }
+    
+    .customer_pic{
+        width:336px;
+    }
+
+    .button_frame{
+        padding:16px 0px;
+        max-width:71%;
+        border:0px;
+        align-self: center;
+    }
+    .display_none_md{
+        display: none;
+    }
+    .footer_icon{
+        width:40px;
+    }
+
+}
+
+@media(max-width:576px){
+    .material-icons.fs_16_sm{
+        font-size: 16px;
+    }
+    .fs_16_sm{
+        font-size: 16px;
+    }
+}
