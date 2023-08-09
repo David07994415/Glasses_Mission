@@ -85,7 +85,10 @@
     .class_frame{
         padding:0px 14px;
     }
-    .glass_pic{
+    // .glass_pic{
+    //     max-width:100%;
+    // }
+    .glass_card_frame{
         max-width:100%;
     }
     .design_frame{
@@ -138,6 +141,9 @@
     .flex_aifs_sm{
         align-items: flex-start;
     }
+    .flex_ain_sm{
+        align-items: normal;
+    }
     .border_bottom{
         border-bottom:0px ;
     }
@@ -151,4 +157,10 @@
     {
         width:100%
     }
+}
+
+@media(max-width:280px){
+   .fs_24_mm{
+    font-size: 24px;
+   }
 }
