@@ -37,23 +37,48 @@ body{
 .flex_aife{
     align-items: flex-end;
 }
+.flex_acs{
+    align-content:start;
+}
+.flex_ace{
+    align-content: end;
+}
+.flex_acfc{
+    align-content: center;
+}
+.flex_acsb{
+    align-content:space-between;
+}
 .flex_wrap{
     flex-wrap: wrap;
 }
-.flex_grow{
+.flex_ase{
+    align-self: self-end;
+}
+.flex_grow1{
     flex-grow: 1;
 }
 
 
 
 //border catagory
+.border_top_gray{
+    border-top: 1px solid #00000020;
+}
+.border_all_gray{
+    border: 1px solid #00000020;
+}
+
 .border_white{
     border: 1px solid #FFFFFF;
 }
 .border_gray{
     border:1px solid #F2F2F2;
 }
-.border_bottom{
+.border_top_gray_footer{
+    border-top:1px solid #F2F2F2;
+}
+.border_bottom_gray{
     border-bottom:1px solid #F2F2F2;
 }
 .border-radius{
@@ -86,6 +111,8 @@ body{
     font-weight:400;
     line-height: 150%;
 }
+
+// font color
 .main_color{
     color:#AA0601;
 }
@@ -107,11 +134,20 @@ body{
 .white_color{
     color:#FFFFFF;
 }
+.lightgray_color{
+    color:#555555;
+}
+
+
+//font size  font style
 .fs_14{
     font-size: 14px;
 }
 .fs_16{
     font-size: 16px;
+}
+.fs_18{
+    font-size: 18px;
 }
 .fs_20{
     font-size: 20px;
@@ -119,8 +155,14 @@ body{
 .fs_24{
     font-size: 24px;
 }
+.fs_32{
+    font-size: 32px;
+}
 .fs_36{
     font-size: 36px;
+}
+.fs_42{
+    font-size:42px;
 }
 .fs_48{
     font-size: 48px;
@@ -132,16 +174,26 @@ body{
     font-style: italic;
 }
 
+//margin 
 .mx_auto{
     margin:0 auto;
 }
-
 .mx_12{
-    margin:0px 12px;
+    margin-left:12px ;
+    margin-right:12px;
 }
 .my_24{
     margin-top:24px ;
     margin-bottom:24px;
+}
+.mr_8{
+    margin-right: 8px;
+}
+.mr_10{
+    margin-right: 10px;
+}
+.mr_16{
+    margin-right: 16px;
 }
 .mr_20{
     margin-right: 20px;
@@ -173,56 +225,116 @@ body{
 .mb_32{
     margin-bottom: 32px;
 }
+.mb_40{
+    margin-bottom: 40px;
+}
 .mb_48{
     margin-bottom: 48px;
+}
+.mb_60{
+    margin-bottom: 60px;
 }
 .mb_72{
     margin-bottom: 72px;
 }
+.mb_80{
+    margin-bottom:80px;
+}
+.mb_124{
+    margin-bottom:124px;
+}
 .mt_72{
     margin-top: 72px;
 }
+.mt_80{
+    margin-top: 80px;
+}
+.mt_96{
+    margin-top: 96px;
+}
+
+
+//padding
 .pl_12{
-    padding: 0px 0px 0px 12px;
+    padding-left:12px;
+}
+.pl_16{
+    padding-left:16px;
+}
+.pl_24{
+    padding-left: 24px;
 }
 .pt_16{
-    padding: 16px 0px 0px 0px;
+    padding-top: 16px;
 }
 .pt_48{
-    padding: 48px 0px 0px 0px;
+    padding-top: 48px;
 }
 .pb_16{
-    padding: 0px 0px 16px 0px;
+    padding-bottom:16px;
 }
-.px_16{
-    padding: 0px 16px;
-}
+
 .pxy_16{
     padding:16px 16px;
 }
+.px_16{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.px_24{
+    padding-left: 24px;
+    padding-right: 24px;
+}
 .py_6{
-    padding: 6px 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 .py_8{
-    padding: 8px 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.py_14{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.py_16{
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 .py_24{
     padding-top: 24px;
     padding-bottom: 24px;
 }
 .py_32{
-    padding: 32px 0px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .py_80{
-    padding: 80px 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .py_296{
-    padding: 296px 0px;
+    padding-top: 296px;
+    padding-bottom: 296px;
+}
+.gap_x24_y48{
+    gap:48px 24px;
+}
+.gap_x48_y0{
+    gap:0px 48px;
+}
+.gap_x0_y60{
+    gap:0px 60px;
 }
 
 
+
+// background color
 .bg_main{
     background: #AA0601;
+}
+.bg_second_main{
+    background:#650300;
 }
 .bg_second{
     background:#FBF2F2;
@@ -230,12 +342,34 @@ body{
 .bg_white{
     background:white;
 }
+.bg_gray{
+    background: #F2F2F2;
+}
+.bg_brown{
+    background: #B75929;
+}
+.bg_brown_dark{
+    background: #5F3E2D;
+}
+.bg_black{
+    background:#000000;
+}
 
+
+
+
+// text word icon deco block
 .text_center{
     text-align: center;
 }
 .text_nonedeco{
     text-decoration: none;
+}
+.material-icons.fs_18{
+    font-size: 18px;
+}
+.material-icons.fs_30{
+    font-size: 30px;
 }
 .material-icons.fs_36{
     font-size: 36px;
@@ -245,4 +379,7 @@ body{
 }
 .word_break{
     word-break: break-all;
+}
+.wid_100per{
+    max-width: 100%;
 }

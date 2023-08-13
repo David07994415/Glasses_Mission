@@ -11,28 +11,11 @@
     .advantages_frame{
         padding:0px 24px;
     }
-    .px_24_md{
-        padding-left: 24px;
-        padding-right:24px;
-    }
-    .px_36_md{
-        padding-left: 36px;
-        padding-right:36px;
-    }
     .glass_pic{
         max-width:100%;
     }
     .glass_card_frame{
         width:336px;
-    }
-    .ml_16_md{
-        margin-left:16px;
-    }
-    .mb_48_md{
-        margin-bottom: 48px;
-    }
-    .mb_24_md{
-        margin-bottom: 24px;
     }
     .design_frame{
         padding-left: 36px;
@@ -47,11 +30,9 @@
         padding-left: 96px;
         padding-right: 96px;
     }
-    
     .customer_pic{
         width:336px;
     }
-
     .button_frame{
         padding:16px 0px;
         max-width:71%;
@@ -64,9 +45,81 @@
     .footer_icon{
         width:40px;
     }
+    .product_header_pic_frame{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+
+    //product_page
+    .product_list_frame{
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+    .product_items_frame{
+        width:336px;
+    }
+
+    //place page
+    .stores_frame{
+        max-width: 100%;
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+    .store_card_frame{
+        width:336px;
+    }
+
+    //blog page
+    .blog_pic_frame{
+        width:334px;
+    }
+    .blog_infor_frame{
+        width:334px;
+    }
+    
+
+
+    //padding
+    .px_24_md{
+        padding-left: 24px;
+        padding-right:24px;
+    }
+    .px_36_md{
+        padding-left: 36px;
+        padding-right:36px;
+    }
+
+    //margin
+    .ml_16_md{
+        margin-left:16px;
+    }
+    .mb_48_md{
+        margin-bottom: 48px;
+    }
+    .mb_24_md{
+        margin-bottom: 24px;
+    }
+    .mb_40_md{
+        margin-bottom: 40px;
+    }
+    .mb_80_md{
+        margin-bottom: 80px;
+    }
+    .mt_80_md{
+        margin-top: 80px;
+    }
+    .gap_x24_y24_md{
+        gap:24px 24px;
+    }
+
+
+    .fs_24_md{
+        font-size: 24px;
+    }
+
 
 }
-
 @media(max-width:576px){
     .material-icons.fs_16_sm{
         font-size: 16px;

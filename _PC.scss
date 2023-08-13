@@ -1,8 +1,5 @@
-.green{
-    border: 2px solid green;
-}
 .navbar{
-    width: 1216px;
+    width: 1296px;
 }
 .logo_icon{
     width:80px;
@@ -27,15 +24,15 @@
     width:306px;
 }
 .advantages_icon{
-    width: 84px;;
+    width: 84px;
 }
 // .advantages_frame{
-//     width: 1216px;
+//     width: 1296px;
 //     position:absolute;
 //     top:296px;
 // }
 .promote_frame{
-    width: 1216px;
+    width: 1296px;
 }
 .glass_pic{
     width:416px;
@@ -88,21 +85,132 @@
     display:none;
 }
 
-// @media(max-width:768px){
-//     .navbar{
-//         padding: 0 36px;
-//     }
-//     .home-cover-display{
-//         display:none
-//     }
-//     .home-cover-display-md{
-//         display:block;
-//     }
-// }
 
-// @media(max-width:576px){
-//     .borderwhite{
-//         border:1px solid white; 
-//         // max-width: 288px;
-//     }
-// }
+//product page
+.product_header_pic_frame{
+    width: 1296px;
+    margin: 0 auto;
+}
+.product_list_frame{
+    width: 1296px;
+    margin: 0 auto;
+}
+.product_items_frame{
+    width:306px;
+}
+.product_items_pic_frame{
+    max-width:100%;
+}
+.btn{
+    padding:12px;
+    border:1px solid #555555;
+}
+.btn:active{
+    background:black;
+    color:white;
+}
+
+
+//stores page
+.stores_frame{
+    width:1296px;
+    margin: 0px auto;
+}
+.h2_border_red{
+    border-left:8px solid #AA0601;
+}
+.select_frame{
+    width:304px;   
+    padding: 8px 0px 8px 12px; 
+}
+.store_card_frame{
+    width:416px;
+}
+.store_pic_frame{
+    max-width: 100%;
+}
+
+
+//blog page
+.blog_card_frame{
+    width:1296px;
+}
+.blog_pic_frame{
+    width:636px;
+}
+.blog_infor_frame{
+    width:636px;
+}
+
+
+
+
+//
+.wid_100per{
+    width:100%;
+}
+.wid_50per{
+    width:50%;
+}
+.wid_33per{
+    width:33.3%;
+}
+.hover_optic_red{
+    position:relative;
+}
+.hover_optic_red:hover::before{
+    content: "";
+    position: absolute;
+    width:100%;
+    border: 4px solid #AA0601;
+    bottom:0px;
+    left:0px;
+}
+.hover_sunglasses_red{
+    position:relative;
+}
+.hover_sunglasses_red:hover::before{
+    content: "";
+    position: absolute;
+    width:100%;
+    border: 4px solid #AA0601;
+    bottom:0px;
+    left:0px;
+}
+.hover_functional_red{
+    position:relative;
+}
+.hover_functional_red:hover::before{
+    content: "";
+    position: absolute;
+    width:100%;
+    border: 4px solid #AA0601;
+    bottom:0px;
+    left:0px;
+}
+
+.contentbox{
+    box-sizing: content-box ;
+}
+.product_color_box{
+    width:24px;
+    height: 24px;
+    border-radius: 4px;
+}
+
+@media(max-width:1320px){
+
+    .product_header_pic_frame{
+        max-width: 100%;
+    }
+    .product_list_frame{
+        max-width: 100%;
+    }
+    .stores_frame{
+        max-width: 100%;
+    }
+    .blog_card_frame{
+        max-width: 100%;
+    }
+
+}
