@@ -676,6 +676,10 @@ body {
   width: 636px;
 }
 
+.QA_infor_frame {
+  width: 856px;
+}
+
 .wid_100per {
   width: 100%;
 }
@@ -737,6 +741,11 @@ body {
   border-radius: 4px;
 }
 
+@media (max-width: 1200px) {
+  .QA_infor_frame {
+    max-width: 100%;
+  }
+}
 @media (max-width: 1320px) {
   .product_header_pic_frame {
     max-width: 100%;
